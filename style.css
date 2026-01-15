@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background: linear-gradient(to top, #680707, #140b11);
+  color: #f5f5f5;
+  line-height: 1.7;
+}
+.page {
+  max-width: 56rem;
+  margin:auto;
+  padding:2rem;
+}
+
+
+
+
+
+header {
+  border: 2px double #ff3434;
+  padding: 1.5rem;
+  background: linear-gradient(to top, #680707, #140b11);
+  opacity: 0;
+  transition: opacity 0.6s ease;
+}
+header h1 {
+  font-size: 2rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+  color: #fc5454;
+}
+header p {
+  font-size: 0.95rem;
+  color: #ffe9e9;
+}
+header:hover {
+    opacity: 1;
+}
+
+
+
+
+
+.important {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem 0.5rem;
+  border: 1px dashed #ff7777;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+}
+.important-label {
+  color:#ff4141;
+}
+
+
+
+
+
+.layout {
+  display: grid;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+nav {
+  background: linear-gradient(to top, #680707, #140b11);
+  border: 1px solid #db0404;
+  padding: 1.5rem;
+  top: 1rem;
+  opacity: 0;
+  transition: opacity 0.6s ease;
+}
+nav h2 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 0.75rem;
+  color: #fc5454;
+}
+nav ul {
+  list-style: none;
+}
+nav a {
+  text-decoration: none;
+  color: #bababa;
+  padding: 0.5rem;
+}
+nav a:hover {
+  color: #ffffff;
+  background: #891e1e;
+}
+nav:hover{
+  opacity: 1;
+}
+
+
+
+
+
+
+
+main {
+  background: linear-gradient(to top, #680707, #140b11);
+  border: 1px solid #db0404;
+  padding: 1.5rem;
+  opacity: 0;
+  transition: opacity 0.6s ease;
+}
+main:hover{
+  opacity: 1;
+}
+main h2{
+  color: #fc5454;
+}
+
+
+
+.item-list {
+  list-style: none;
+}
+
+.item-note {
+  font-size: 0.8rem;
+  color: #bbbbbb;
+  display: block;
+}
+
+
+
+
+
+
+
+.check-box {
+  padding: 0.4rem;
+}
+
+.check-item label {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.check-box input[type="checkbox"] {
+  margin-top: 0.5rem;
+}
+
+
+
+
+
+
+.extra {
+    list-style: none;
+}
+
+
+
+
+
+li{
+  color: #ff3434;
+  opacity: 0;
+  transition: opacity 0.6s ease;
+}
+
+li:hover{
+  opacity: 1;
+}
+
+
+p{
+  color: #ff3434;
+  opacity: 0;
+  transition: opacity 0.6s ease;
+}
+
+p:hover{
+  opacity: 1;
+}
+
+
